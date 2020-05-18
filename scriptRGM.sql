@@ -257,6 +257,7 @@ select * from mydb.usuario;
 select * from mydb.venda;
 select * from mydb.detalhe_compra;
 select * from mydb.livro_has_genero;
+select * from mydb.livro where idLivro=1;
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
